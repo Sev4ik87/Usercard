@@ -5,13 +5,14 @@
   background-color: rgb(241, 244, 247);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border-radius: 10px;
-  position: relative;
 }
 
 .photo {
-  display: flex;
+  display: block;
   margin: 60px auto;
+  margin-bottom: 5px;
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -20,8 +21,7 @@
 
 #button-cont {
   margin-top: 60px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .button {
   background-color: rgb(85, 181, 245);
@@ -43,7 +43,7 @@
   flex-wrap: wrap;
   width: 100%;
   background-color: #0a233b;
-  height: 65px;
+  height: 80px;
 }
 .textcols5-item {
   margin-top: 10px;
@@ -53,24 +53,24 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  height: 35px;
+  height: 60px;
   background: #0e2c49;
   color: #d07575;
   text-align: center;
   font-style: oblique;
   padding: 5px 5px 5px 5px;
   border-radius: 10px;
+  line-height: 8px;
 }
 .textcols5-item + .textcols5-item {
   margin-left: 15%;
 }
 
 footer {
-  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 65px;
+  height: 80px;
 }
 h3 {
   line-height: 3px;
@@ -97,4 +97,14 @@ p {
 }
 b {
   color: aliceblue;
+}
+.fas {
+  font-size: 24px;
+}
+.material-icons {
+  margin-bottom: 7px;
+}
+.fa {
+  font-size: 22px;
+  margin-bottom: 7px;
 }
